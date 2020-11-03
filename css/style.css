@@ -1,0 +1,34 @@
+html, body{
+	background-color: black;
+	color: white;
+}
+
+.rating .checked{
+	color: yellow
+}
+
+.list .item{
+	width: 220px;
+	height: 330px;
+	position: relative;
+}
+
+.list .item img{
+	position: absolute;
+	transition: 1s;
+}
+
+.item .intro{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: grey;
+	opacity: 0;
+}
+
+.item .intro:hover{
+	opacity: 1;
+	transition: 0.2s ease
+}
