@@ -21,7 +21,7 @@ function search(searchText){
 				<div class="intro text-center p-3">
 					<h4>${res.title||res.name} (${res.media_type.toUpperCase()})</h4>
 					<p class="m-0 p-0">
-						${res.overview.substr(0,190)}
+						${res.overview}
 					</p>
 					<a href="#" class="btn btn-link text-warning">Go Info</a>
 				</div>
